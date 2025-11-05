@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "t2t-requirements-to-tests"
+version = "0.1.2"
+description = "Requirement Agent: Convert Jira change requests + OpenAPI into Gherkin + pytest with live traceability."
+authors = [{name="Your Name"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click==8.1.7",
+    "pyyaml==6.0.2",
+    "jsonschema==4.23.0",
+    "openapi-spec-validator==0.7.1",
+    "jinja2==3.1.4",
+    "pandas==2.2.2",
+    "tabulate==0.9.0",
+    "requests==2.32.3",
+]
+
+[project.scripts]
+t2t = "t2t.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["t2t*"]
+exclude = ["data*","tests*","out*"]

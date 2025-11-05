@@ -1,0 +1,2 @@
+[console_scripts]
+t2t = t2t.cli:main

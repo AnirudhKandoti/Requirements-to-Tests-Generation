@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: My API
+  version: 1.0.0
+paths:
+  /pets:
+    get:
+      operationId: listPets        # <- unique name!
+      responses:
+        '200': { description: OK }
+    post:
+      operationId: createPet
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id: { type: string }
+                name: { type: string }
+      responses:
+        '200': { description: OK }
+  /pets/{petId}:
+    get:
+      operationId: getPet
+      parameters:
+        - in: path
+          name: petId
+          required: true
+          schema: { type: string }
+      responses:
+        '200': { description: OK }

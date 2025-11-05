@@ -1,0 +1,21 @@
+[
+  {
+    "id": "REQ-101",
+    "title": "List pets and view single pet",
+    "description": "Customers must list pets and view a single pet by ID.",
+    "links": [
+      "listPets",
+      "GET /pets/{petId}"
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "REQ-102",
+    "title": "Create a new pet",
+    "description": "Staff must create a new pet.",
+    "links": [
+      "createPet"
+    ],
+    "priority": "Medium"
+  }
+]

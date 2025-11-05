@@ -1,0 +1,16 @@
+[
+  {
+    "id": "REQ-201",
+    "title": "List and view pets",
+    "description": "As a user, I can list all pets and fetch one by ID.",
+    "links": ["listPets", "GET /pets/{petId}"],
+    "priority": "High"
+  },
+  {
+    "id": "REQ-202",
+    "title": "Create a new pet",
+    "description": "As staff, I can create a pet.",
+    "links": ["createPet"],
+    "priority": "Medium"
+  }
+]

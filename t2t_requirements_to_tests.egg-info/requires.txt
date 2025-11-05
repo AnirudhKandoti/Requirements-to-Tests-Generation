@@ -1,0 +1,8 @@
+click==8.1.7
+pyyaml==6.0.2
+jsonschema==4.23.0
+openapi-spec-validator==0.7.1
+jinja2==3.1.4
+pandas==2.2.2
+tabulate==0.9.0
+requests==2.32.3
