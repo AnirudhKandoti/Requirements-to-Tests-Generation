@@ -16,10 +16,9 @@ It reads:
 
 and automatically generates:
 
-- ✅ **Gherkin scenarios** (`.feature` files)  
-- ✅ **Runnable pytest tests** (`.py` files)  
-- ✅ **Traceability matrix** (CSV + HTML)  
-- ✅ Optional **schema validation** and **contract-aware payloads**
+-  **Gherkin scenarios** (`.feature` files)  
+-  **Runnable pytest tests** (`.py` files)  
+-  **Traceability matrix** (CSV + HTML)  
 
 This cuts **manual test creation from hours to minutes** while maintaining full traceability from requirement → test → execution result.
 
