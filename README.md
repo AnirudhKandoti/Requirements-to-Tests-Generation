@@ -1,10 +1,10 @@
-# 🧠 Requirements-to-Tests Generator (T2T)
+#  Requirements-to-Tests Generator (T2T)
 
 > **Automatically generate runnable test cases and traceability matrices directly from requirements and API specifications.**
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Manual test authoring is slow and error-prone — every time a requirement changes, QA engineers must rewrite test scripts and update traceability sheets.  
 **T2T** automates this entire process.
@@ -25,7 +25,7 @@ This cuts **manual test creation from hours to minutes** while maintaining full 
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 t2t_requirements_to_tests_fixed2/
 
